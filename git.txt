@@ -1,0 +1,31 @@
+1.git pull origin main
+  拉取远程仓库的最新更改,并合并到当前分支.
+命令： git pull origin main
+这里origin是远程仓库的默认名称， 
+main是你想要拉取的分支名称;
+ 
+ 
+ 2. git log
+    显示所有的提交记录，与哈希值。
+
+ 3.git checkout 哈希值
+  暂时回到 哈希值 所对应的版本
+
+ 4.git reset --hard 哈希值
+   哈希值 对应版本 将覆盖本地 
+
+ 5.git add 文件路径
+   添加文件到暂存区
+   
+ 6.git status
+  查看暂存区的状态
+  确认哪些文件已经被添加
+
+ 7.git commit -m "想说啥写啥"
+   提交暂存区的更改
+   描述你所做的更改的简短信息。
+   
+ 8.git push origin main
+   将提交推送到远程仓库
+ 
+ 9.
